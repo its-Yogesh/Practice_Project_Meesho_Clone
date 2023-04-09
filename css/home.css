@@ -1,0 +1,116 @@
+.home {
+  display: block;
+  align-items: center;
+}
+.advertisemnet {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  background-color: rgb(246, 245, 245);
+  width: max-content;
+  margin: auto;
+  margin-top: 30px;
+  height: max-content;
+}
+.ad_content {
+  position: relative;
+  height: max-content;
+  padding: 0px 30px 0px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.ad_content label {
+  font-size: 3rem;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 1000;
+}
+.features {
+  background-color: rgb(255, 255, 255);
+
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 1000;
+  padding: 10px;
+  border-radius: 10px;
+}
+.features div {
+  display: flex;
+  padding: 0px 40px 0px 10px;
+  justify-content: center;
+  align-items: center;
+  border-left: 2px solid black;
+  color: rgb(51, 51, 51);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  width: 100px;
+}
+
+.features div img {
+  background-color: rgb(243, 117, 184);
+  width: 32px;
+  height: 32px;
+}
+.features div span {
+  padding-left: 10px;
+}
+.app_download {
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 10px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: deeppink;
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+}
+
+.app_download img {
+  padding-right: 10px;
+}
+.app_download:hover {
+  cursor: pointer;
+}
+.prop1 {
+  display: none;
+}
+.prop {
+  /* position: relative;
+  display: flex;
+  /* z-index: 0; 
+  margin: auto;
+  width: 70%;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: space-between; 
+  justify-items: center;
+  height: 72px;
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 1000; */
+
+  display: flex;
+  position: absolute;
+  /* top: 30%; */
+  width: 100%;
+  background: rgb(255, 255, 255);
+  flex-direction: row;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  border-style: solid;
+  border-color: rgb(215, 215, 224);
+  border-width: 0px 0.5px 0.5px;
+  box-shadow: rgba(0, 0, 0, 0.05) 2px 2px 4px 0px;
+  animation: 200ms ease-in 0s 1 normal none running fadeIn;
+  z-index: 1000;
+}
