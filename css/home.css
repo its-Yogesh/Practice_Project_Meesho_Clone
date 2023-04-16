@@ -1,6 +1,7 @@
 .home {
   display: block;
   align-items: center;
+  margin-top: 3%;
 }
 .advertisemnet {
   position: relative;
@@ -143,4 +144,26 @@
   width: 225px;
   height: 1px;
   background: rgb(247, 168, 202);
+}
+.be_fashion_forward {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: cornflowerblue;
+}
+.women_store {
+  height: 33%;
+  background-color: aqua;
+}
+.men_store {
+  height: 33%;
+
+  background-color: rgb(23, 182, 182);
+}
+.kids_store {
+  height: 33%;
+
+  background-color: rgb(0, 0, 0);
 }
