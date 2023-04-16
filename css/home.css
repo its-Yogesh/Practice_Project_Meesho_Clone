@@ -14,7 +14,7 @@
   margin-top: 30px;
   height: max-content;
 }
-.ad_content {
+.add_content {
   position: relative;
   height: max-content;
   padding: 0px 30px 0px 30px;
@@ -22,7 +22,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.ad_content label {
+.add_content label {
   font-size: 3rem;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 1000;
